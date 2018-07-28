@@ -1,4 +1,4 @@
-//creating Menu Button
+// Menu Button
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -10,12 +10,11 @@
   .btn-line {
     width: 28px;
     height: 3px;
-    margin: 0 0 6px 0;
-    background: #fff;
+    margin: 0 0 5px 0;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
-  //Rotate into X
   // Rotate Into X With Menu Lines
   &.close {
     transform: rotate(180deg);
