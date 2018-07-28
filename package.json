@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Responsive Portfolio Website",
   "main": "index.js",
-  "homepage": "https://EthanHunt.github.io/my-resume",
+  "homepage": "https://PhenomenalClub.github.io/my-resume",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
